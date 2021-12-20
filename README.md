@@ -1,7 +1,7 @@
 
 # Omnifood Project 🍖
 
-Omnifood Project in Html/css Course of Jonas Schmedtmann
+Omnifood Project in Html/css with responsive design Course of Jonas Schmedtmann
 
 
 # Author 👥
