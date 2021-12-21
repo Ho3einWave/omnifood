@@ -7,7 +7,7 @@ Omnifood Project in Html/css with responsive design Course of Jonas Schmedtmann
 # Author 👥
 👤 **Jonas Schmedtmann (Code Along)**
 
-* Website: [ho3einwave.github.io](https://gho3einwave.github.io/omnifood/)
+* Website: [ho3einwave.github.io](https://ho3einwave.github.io/omnifood/)
 * Github: [@ho3einwave/omnifood](https://github.com/ho3einwave/omnifood)
 
 
