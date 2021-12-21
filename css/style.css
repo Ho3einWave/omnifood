@@ -21,7 +21,7 @@ Brand color: #e67e22
 - Tints:
 #fdf2e9
 
-- Shades:
+- Shades:#cf711f
 
 - Accents:
 
@@ -53,7 +53,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -94,6 +94,7 @@ body {
     display: inline-block;
     background-color: #e67e22;
     font-size: 2rem;
+    font-weight: 600;
     text-decoration: none;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
@@ -130,4 +131,38 @@ body {
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8rem;
+}
+
+.delivered-imgs {
+    display: flex;
+}
+
+.delivered-imgs img {
+    display: flex;
+    margin-right: -1.6rem;
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+    margin: 0;
+}
+
+.delivered-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 700;
 }
