@@ -86,7 +86,11 @@ body {
 .grid {
     display: grid;
     row-gap: 9.6rem;
-    column-gap: 6.4rem;
+    column-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+    margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
@@ -191,6 +195,25 @@ heading-tertairy {
 .link:active {
     color: #cf711f;
     border-bottom: 1px solid transparent;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.list-item {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.list-icon {
+    font-size: 3rem;
+    color: #e67e22;
 }
 
 
