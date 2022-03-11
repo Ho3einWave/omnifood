@@ -32,6 +32,7 @@ Brand color: #e67e22
 #fae5d3
 
 - Shades:#cf711f
+#45260a
 
 - Accents:
 
@@ -42,8 +43,7 @@ Brand color: #e67e22
 
 
 --- 3 Shadows
-
-
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 --- 4 Border Radius
 9px
 11px
@@ -145,16 +145,20 @@ heading-tertairy {
     letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
     display: inline-block;
-    background-color: #e67e22;
+    /* background-color: #e67e22; */
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
     transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn--full:link,
@@ -179,6 +183,18 @@ heading-tertairy {
     background-color: #fdf2e9;
     /* border: 3px solid #fff; */
     box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover {
+    background-color: white;
+    color: #555;
 }
 
 .link:link,
@@ -214,6 +230,11 @@ heading-tertairy {
 .list-icon {
     font-size: 3rem;
     color: #e67e22;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 
