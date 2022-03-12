@@ -1,0 +1,48 @@
+/* ************ 
+  Below 1344px 
+ ************ */
+
+@media (max-width:84em) {
+    .hero {
+        max-width: 120rem;
+    }
+    .heading-primary {
+        font-size: 4.4rem;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* ************ 
+  Below 1200px (Landscape Tablets)
+ ************ */
+
+@media (max-width:75em) {
+    html {
+        font-size: 50%;
+    }
+    .grid {
+        column-gap: 4.8;
+        row-gap: 6.4rem;
+    }
+    .heading-secondary {
+        font-size: 3.6rem;
+    }
+    .heading-tertiary {
+        font-size: 2.4rem;
+    }
+    .header {
+        padding: 0 3.2rem;
+    }
+    .main-nav-list {
+        gap: 3.2rem;
+    }
+    .hero {
+        gap: 4.8rem;
+    }
+    .testimonial-container {
+        padding: 9.6rem 3.2rem;
+    }
+}
