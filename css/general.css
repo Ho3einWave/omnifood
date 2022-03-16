@@ -17,6 +17,7 @@ Default:1
 Small: 1.05
 Medium:1.2
 Paragraph Default: 1.6
+Large : 1.8
 
 -Letter Spacing
 -0.5px
@@ -64,6 +65,7 @@ Brand color: #e67e22
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -71,6 +73,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
 }
 
 
@@ -107,9 +110,11 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+
+/* 
 .grid--5-cols {
     grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
     align-items: center;
@@ -231,6 +236,7 @@ heading-tertairy {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    line-height: 1.2;
 }
 
 .list-icon {
