@@ -16,16 +16,16 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header sticky">
         <a href="#"><img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo"></a>
 
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">How it works</a></li>
-                <li><a class="main-nav-link" href="#">Meals</a></li>
-                <li><a class="main-nav-link" href="#">Testimonial</a></li>
-                <li><a class="main-nav-link" href="#">Pricing</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+                <li><a class="main-nav-link" href="#how">How it works</a></li>
+                <li><a class="main-nav-link" href="#meals">Meals</a></li>
+                <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
             </ul>
         </nav>
         <button class="btn-mobile-nav">
@@ -44,8 +44,8 @@
                     <p class="hero-description">
                         The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm">Start eating well</a>
-                    <a href="#" class="btn btn--outline">Learn More &rarr;</a>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+                    <a href="#how" class="btn btn--outline">Learn More &rarr;</a>
                     <div class="delivered-meals">
                         <div class="delivered-imgs">
                             <img src="img/customers/customer-1.jpg" alt="Customer Photo">
@@ -78,7 +78,7 @@
             </div>
         </section>
 
-        <section class="section-how">
+        <section class="section-how" id="how">
             <div class="container">
                 <span class="subheading">How it works</span>
                 <h2 class="heading-secondary">
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-meals">
+        <section class="section-meals" id="meals">
             <div class="container center-text">
                 <span class="subheading">Meals</span>
                 <h2 class="heading-secondary">
@@ -195,7 +195,7 @@
                 <a href="#" class="link">See all recipes &rarr;</a>
             </div>
         </section>
-        <section class="section-testimonials ">
+        <section class="section-testimonials " id="testimonials">
             <div class="testimonial-container">
 
                 <span class="subheading">Testimonials</span>
@@ -304,7 +304,7 @@
 
             </div>
         </section>
-        <section class="section-pricing">
+        <section class="section-pricing" id="pricing">
             <div class="container ">
                 <span class="subheading">Pricing</span>
                 <h2 class="heading-secondary">
@@ -400,7 +400,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-cta">
+        <section class="section-cta" id="cta">
             <div class="container">
                 <div class="cta">
                     <div class="cta-text-box">
@@ -461,7 +461,7 @@
                     </li>
                 </ul>
 
-                <p class="copyright">Copyright &copy; 2022 by Omnifood, Inc. All rights reserved.</p>
+                <p class="copyright">Copyright &copy; <span class="year">2022</span> by Omnifood, Inc. All rights reserved.</p>
             </div>
             <div class="address-col">
                 <p class="footer-heading">Contact us</p>
@@ -502,6 +502,8 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="js/app.js"></script>
 </body>
 
 </html>
